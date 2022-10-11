@@ -1,0 +1,13 @@
+libpdf-api2-perl (2.042-1) unstable; urgency=medium
+
+  From upstream Changes for 2.042:
+
+  - This release includes many changes to method names, options, and
+    documentation aimed at improving approachability, but existing code should
+    continue to work.  See the new Backward Compatibility section in the main
+    PDF::API2 documentation for details about deprecation timelines and a
+    suggested workflow for handling upgrades.  See the new Migration section
+    for a consolidated list of deprecated methods/options and their
+    replacements.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 29 Sep 2021 21:47:03 +0200
