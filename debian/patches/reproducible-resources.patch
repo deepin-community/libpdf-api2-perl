@@ -10,7 +10,7 @@ Bug-Debian: https://bugs.debian.org/818363
 Forwarded: https://rt.cpan.org/Ticket/Display.html?id=113084
 Author: Damyan Ivanov <dmn@debian.org>
 Reviewed-by: gregor herrmann <gregoa@debian.org>
-Last-Update: 2021-09-29
+Last-Update: 2024-05-22
 Applied-Upstream: no. rejected.
 
 --- a/lib/PDF/API2/Resource/CIDFont/TrueType.pm
@@ -46,7 +46,7 @@ Applied-Upstream: no. rejected.
      $data->{'fontbbox'} = [ split(/\s+/, $data->{'FONTBOUNDINGBOX'}) ];
 --- a/lib/PDF/API2/Resource/Font/CoreFont.pm
 +++ b/lib/PDF/API2/Resource/Font/CoreFont.pm
-@@ -156,7 +156,7 @@
+@@ -164,7 +164,7 @@
      die "Undefined font '$name($lookname)'" unless $data->{'fontname'};
  
      $class = ref($class) if ref($class);

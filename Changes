@@ -1,3 +1,68 @@
+2.047     2024-05-18
+
+    - Fixed implementation of GH-77.
+
+    - Added $pdf->standard_fonts() and $pdf->is_standard_font($name) (initial
+      patch by Johan Vromans).
+
+
+2.046     2024-05-14
+
+    - [GH-74] Fixed documentation error saying that stroke_color and fill_color
+      can be chained.
+
+    - Crash instead of freezing if a PDF trailer's Prev keys result in a loop or
+      if multiple trailers use the same object ID and generation number.
+
+    - [GH-70] Fix off-by-one error when adding a page at the beginning of a PDF.
+
+    - [GH-77] Significantly improve performance when adding many pages to a PDF.
+
+
+2.045     2023-09-25
+
+    - Fixed documentation error in synopsis for QR codes.
+
+    - Fixed date validation when timezone offset minute contains a trailing
+      apostrophe, which is required by the Adobe PDF specifications and
+      prohibited by the ISO PDF specifications.  PDF::API2 now accepts either
+      version as valid (report by Johan Vromans).
+
+    - Fixed passing a GD object to $pdf->image() (reported by Hakon Hagland).
+
+    - Fixed a crash when object numbers contain leading zeroes.
+
+
+2.044     2022-11-16
+
+    - Added support for QR codes.
+
+    - [GH-44] The X coordinate returned by $text->position() or (deprecated)
+      $text->textpos() was incorrect when read after being set twice (report by
+      Johan Vromans).
+
+    - [GH-45] Renamed transform's "relative" option to "repeat" and fixed the
+      documentation describing what it does (report by Johan Vromans).
+
+    - [GH-49] Fix page_layout storing its value as page_mode (report by Johan
+      Vromans).
+
+    - [GH-50] Fix $pdf->viewer_preferences to return the same values it accepts
+      for non_full_screen_page_mode (report by Johan Vromans).
+
+    - Minor doc clarifications and improved error messages.
+
+
+2.043     2021-12-07
+
+    - Restores backward compatibility (with a warning) when the deprecated
+      $pdf->pageLabel is given an invalid -style option starting with "a" or
+      "r" (report by Johan Vromans).
+
+    - Fix incorrect default in documentation for annotation borders (report and
+      patch by Johan Vromans).
+
+
 2.042     2021-09-16
 
     - This release includes many changes to method names, options, and

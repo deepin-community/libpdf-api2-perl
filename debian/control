@@ -12,10 +12,10 @@ Build-Depends-Indep: libfont-ttf-perl <!nocheck>,
                      libtest-exception-perl <!nocheck>,
                      libtest-memory-cycle-perl <!nocheck>,
                      perl
-Standards-Version: 4.6.0
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpdf-api2-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpdf-api2-perl.git
-Homepage: http://pdfapi2.sourceforge.net/
+Homepage: https://pdfapi2.sourceforge.net/
 Rules-Requires-Root: no
 
 Package: libpdf-api2-perl

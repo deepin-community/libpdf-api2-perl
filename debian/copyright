@@ -4,7 +4,7 @@ Upstream-Contact: Steve Simms <steve@deefs.net>
 Source: https://metacpan.org/release/PDF-API2
 
 Files: *
-Copyright: 2021, Steve Simms <steve@deefs.net>
+Copyright: 2024, Steve Simms <steve@deefs.net>
 License: LGPL-2.1+
 Comment: the "or (at your option) any later version" part is found in
  lib/PDF/API2.pm
@@ -64,7 +64,7 @@ Comment:
 
 Files: debian/*
 Copyright: 2003-2008, Gunnar Wolf <gwolf@debian.org>
- 2006-2021, gregor herrmann <gregoa@debian.org>
+ 2006-2024, gregor herrmann <gregoa@debian.org>
  2006, Krzysztof Krzyzaniak (eloy) <eloy@debian.org>
  2007-2019, Damyan Ivanov <dmn@debian.org>
  2009, Ryan Niebur <ryan@debian.org>
