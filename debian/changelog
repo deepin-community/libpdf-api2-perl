@@ -1,3 +1,43 @@
+libpdf-api2-perl (2.047-1) unstable; urgency=medium
+
+  * Import upstream version 2.047.
+  * Refresh reproducible-resources.patch (offset).
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 22 May 2024 17:49:46 +0200
+
+libpdf-api2-perl (2.046-1) unstable; urgency=medium
+
+  * Import upstream version 2.046.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 17 May 2024 17:07:16 +0200
+
+libpdf-api2-perl (2.045-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Use secure URI in Homepage field.
+
+  [ gregor herrmann ]
+  * Import upstream version 2.045.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 30 Sep 2023 01:16:08 +0200
+
+libpdf-api2-perl (2.044-1) unstable; urgency=medium
+
+  * Import upstream version 2.044.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.6.2.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 23 Dec 2022 20:52:05 +0100
+
+libpdf-api2-perl (2.043-1) unstable; urgency=medium
+
+  * Import upstream version 2.043.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Dec 2021 01:50:06 +0100
+
 libpdf-api2-perl (2.042-1) unstable; urgency=medium
 
   * Import upstream versions 2.039, 2.042.
